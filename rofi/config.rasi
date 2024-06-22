@@ -134,3 +134,4 @@ button {
     background-color: @alternate-active-background;
     text-color:       @alternate-active-foreground;
 }
+@theme "/usr/share/rofi/themes/android_notification.rasi"
