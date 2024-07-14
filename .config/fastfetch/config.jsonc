@@ -1,0 +1,67 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/fetch.txt",
+        "padding": {
+            "top": 2,
+            "right": 6
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+	"break",
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": "syst: ",
+            "keyColor": "33",  // = color3
+        },
+        {
+            "type": "kernel",
+            "key": "krnl: ",
+            "keyColor": "33",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": "pkgs: ",
+            "keyColor": "33",  
+        },
+        {
+            "type": "shell",
+            "key": "shll: ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "terminal",
+            "key": "tmnl: ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "wm",
+            "key": "wmgr: ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "uptime",
+            "key": "uptm: ",
+            "keyColor": "33", 
+        },
+        {
+            "type": "media",
+            "key": "song: ",
+            "keyColor": "33", 
+        },
+        "break",
+        "colors",
+        "break",
+        "break",
+    ]
+}
