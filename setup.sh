@@ -3,6 +3,7 @@
 git submodule init
 git submodule update
 
-cp -ri .config ~/.config
-cp -ri wallpapers ~/Pictures
+cp -r .config ~/.config
+cp -r scripts ~/.config
+cp -r wallpapers ~/Pictures
 
