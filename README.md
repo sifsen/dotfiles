@@ -1,5 +1,7 @@
 # Sifsen's Dotfiles
 
+![Screenshot](screenshot.png)
+
 These are the dotfiles I use on both my laptop and PC. It is meant to be an unobtrusive setup as to not distract the user while working.
 
 ## Dependencies
